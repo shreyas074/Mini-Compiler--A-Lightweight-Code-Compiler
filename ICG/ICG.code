@@ -1,0 +1,15 @@
+0: fun2:
+1: arg s
+2: fun:
+3: arg a
+4: arg b
+5: arg c
+6: param "What else can I print?"
+7: call fun2
+8: main:
+9: c = 5
+10: param c
+11: param 2
+12: param 5
+13: call fun
+14: exit
